@@ -46,10 +46,11 @@ public class Main {
         }
 
         try {
-            Rectangle r = (Rectangle) f; // ERREUR
+            Rectangle r = (Rectangle) f; 
         } catch (ClassCastException e) {
             System.out.println("Erreur : downcast Cercle -> Rectangle impossible");
         }
     }
 }
+
 
